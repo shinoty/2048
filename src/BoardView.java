@@ -1,4 +1,4 @@
-
+package com.game2048.ui;
 
 import com.game2048.engine.GameBoard;
 import javafx.geometry.Pos;

@@ -60,7 +60,6 @@ public class BoardView extends GridPane {
 
     private StackPane createTile(int value) {
         Rectangle background = new Rectangle(CELL_SIZE, CELL_SIZE);
-        background.setArc(12);
         background.setArcWidth(12);
         background.setArcHeight(12);
         background.setFill(Color.web(TILE_COLORS.getOrDefault(value, "#3c3a32")));

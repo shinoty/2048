@@ -72,7 +72,7 @@ docker run --rm -v game2048-data:/root/.game2048 \
 
 ### Примечание для macOS/Windows:
 ### требуется X-сервер (XQuartz / VcXsrv).
-### Альтернатива — собрать и протестировать только ядро:
+### Альтернатива - собрать и протестировать только ядро:
 
 ```bash
 docker run --rm game2048 mvn test

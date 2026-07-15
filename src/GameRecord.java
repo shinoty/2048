@@ -1,4 +1,4 @@
-
+package com.game2048.data;
 
 import java.time.LocalDateTime;
 

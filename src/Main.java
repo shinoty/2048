@@ -1,4 +1,4 @@
-
+package com.game2048;
 
 import com.game2048.ui.GameApp;
 

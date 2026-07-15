@@ -1,4 +1,4 @@
-
+package com.game2048.ai;
 
 import com.game2048.engine.GameBoard;
 import com.game2048.engine.Move;

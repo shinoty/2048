@@ -1,4 +1,4 @@
-
+package com.game2048.ui;
 
 import com.game2048.data.DataManager;
 import javafx.geometry.Insets;

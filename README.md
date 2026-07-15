@@ -28,7 +28,7 @@
 │   └── StatsPanel.java        # панель со счётом, рекордом и статистикой
 ├── tests/
 │   ├── GameBoardTest.java     # юнит-тесты алгоритма сдвига/слияния
-│   └── DataManagerTest.java   # интеграционные тесты хранилища (JSON, сохранение/загрузка)
+│   └── DataManagerTest.java   # интеграционные тесты хранилища (сохранение/загрузка)
 ├── Dockerfile
 ├── docker-compose.yml
 ├── .gitignore

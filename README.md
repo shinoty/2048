@@ -43,8 +43,8 @@
 
 ```bash
 # 1. Клонировать репозиторий
-git clone https://github.com/<username>/<repo>.git
-cd <repo>
+git clone https://github.com/shinoty/2048.git
+cd 2048
 
 # 2. Запустить через Maven (с горячей перезагрузкой)
 mvn clean javafx:run

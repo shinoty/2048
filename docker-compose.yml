@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  game2048:
+    build: .
+    image: game2048:latest
+    container_name: game2048
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      # Проброс X11-сокета хоста — так GUI-окно JavaFX отображается на экране хоста.
+      # Работает "из коробки" на Linux; на macOS/Windows нужен XQuartz/VcXsrv (см. README).
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      # Именованный volume — данные (рекорды, статистика) переживают пересборку контейнера.
+      - game2048-data:/root/.game2048
+    network_mode: host
+
+volumes:
+  game2048-data:

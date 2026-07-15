@@ -1,4 +1,4 @@
-package com.game2048.data;
+
 
 import com.game2048.engine.GameState;
 import com.google.gson.Gson;
